@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homeopathyforhealth | Homeopath | Dublin |Carlow</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+</head>
+<body>
+    <!-- Cursor -->
+    <!-- <div class="cursor"></div> -->
+    <div class="cursor-follower"></div>
+
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-logo">H</div>
+            <div class="loader-progress">
+                <div class="loader-progress-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img id="logoimg" src="assets\images\logo.png" alt="">
+                </a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="homeopathyformen.html" class="nav-link">Homeopathy for Men</a></li>
+                    <li><a href="homeopathyforwomen.html" class="nav-link">Homeopathy for Women</a></li>
+                    <li><a href="homeopathyforchildren.html" class="nav-link">Homeopathy for Children</a></li>
+                    <li><a href="acutesclinic.html" class="nav-link">Acutes Clinic</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="shopnow.html" class="nav-link">Shop Now</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="menu-toggle">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-container">
+            <ul class="mobile-nav-links">
+                <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+                <li><a href="about.html" class="mobile-nav-link">About</a></li>
+                <li><a href="homeopathyformen.html" class="mobile-nav-link">Homeopathy for Men</a></li>
+                <li><a href="homeopathyforwomen.html" class="mobile-nav-link">Homeopathy for Women</a></li>
+                <li><a href="homeopathyforchildren.html" class="mobile-nav-link">Homeopathy for Children</a></li>
+                <li><a href="acutesclinic.html" class="mobile-nav-link">Acutes Clinic</a></li>
+                <li><a href="blog.html" class="mobile-nav-link">Blog</a></li>
+                <li><a href="shopnow.html" class="mobile-nav-link">Shop Now</a></li>
+                <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+            </ul>
+            <div class="mobile-contact">
+                <p><i class="fas fa-phone"></i> 086 2600893</p>
+                <p><i class="fas fa-envelope"></i> hello@naturae.com</p>
+            </div>
+            <div class="mobile-social">
+                <a class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a class="social-icon"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <!-- <div class="hero-image"></div> -->
+            <div class="hero-image" style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-image: url('assets/images/clinic.jpg');
+                background-size: cover;
+                background-position: center;
+                transform: scale(1.1);
+                filter: blur(7px);
+                ">
+            </div>
+
+            <div class="hero-overlay" style="background: linear-gradient(135deg, #1d021857);"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="split-text">Acutes Clinic</h1>
+
+                <p class="hero-description">To book an appointment for our specialist, text Homeopathy for Health today</p>
+                <div class="hero-buttons">
+
+                    <a href="" class="btn-primary"><i class="fas fa-phone"> </i> <span>086 2600893</span></a>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">20+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">5k+</span>
+                    <span class="stat-label">Happy Clients</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Natural Remedies</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+                <div class="about-content">
+                    <div class="section-subtitle">About</div>
+                    <h2 class="section-title">Acutes Clinic</h2>
+                    <p class="section-description">
+                        At Homeopathy For Health we regularly have people contact us looking for help, either for themselves or their children, for everyday problems like coughs, colds, stomach bugs etc
+                        <br>
+                        <br>
+                        These acute complaints aren’t long term conditions but they do cause discomfort and affect a person’s quality of life in the short term.
+                        <br>
+                        <br>
+                        Homeopathy is a wonderful, safe and effective way to help the body to restore balance and alleviate symptoms.
+                        
+                    </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+
+    
+
+    <section id="about" class="about">
+        <div class="container">
+            <div style="background-color:#fce9f8; padding: 2rem; font-family: 'Sora', sans-serif;">
+
+                <!-- Section 1 -->
+                <div style="display: flex; gap: 2rem; align-items: flex-start; padding: 2rem; margin-bottom: 2rem; border: 1px solid #dee2e6; border-radius: 8px; background-color: #ffffff;">
+                <!-- Text -->
+                <div style="flex: 1;">
+                    <h2 style="color: #6C145E; font-family: 'Playfair Display', serif; font-size: 1.75rem; margin-bottom: 1rem;">How this clinic works:</h2>
+                    <p style="color: #555555; line-height: 1.6; margin-bottom: 1rem;">
+                        To book an appointment click on this phone number: 083 068 5880 and text your full name, you will then receive a text with an appointment time.
+                    </p>
+                    <br>
+                
+                    <p style="color: #555555; line-height: 1.6;">
+                        One of our homeopaths will call you, discuss your symptoms and recommend the most suitable remedy.
+                    </p>
+                    <br>
+
+                    <p style="color: #555555; line-height: 1.6;">
+                        If you have a homeopathic kit the homeopath will instruct you how to prepare and take the remedy.
+                    </p>
+                    <br>
+
+                    <p style="color: #555555; line-height: 1.6;">
+                        If you don’t already have the remedy we will supply it.
+                    </p>
+                    <br>
+                    <p style="color: #000000; line-height: 1.6;">
+                        <strong>Cost:</strong>
+                    </p>
+                    <br>
+                    <p style="color: #555555; line-height: 1.6;">
+                        Consultation only €35
+                        <br>
+
+                        Remedies €10 -25 (depending on remedies supplied)
+                    </p>
+
+                </div>
+            
+                <!-- Image -->
+                <div style="flex: 1;">
+                    <img src="assets\images\ac.jpg" alt="Homeopathy for Menstruation" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                </div>
+                </div>
+            
+
+            
+            </div>              
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <span class="logo-text"><img src="assets\images\logo.png" alt=""></span>
+                    <p><i class="fas fa-location-dot"></i> 13 Fade St., Dublin 2,
+                        Co. Dublin,
+                        Ireland</p> 
+                    <br>
+                    <br>
+                    <p><i class="fas fa-location-dot"></i> The Old School House,
+                        Bennekerry, 
+                        Co. Carlow,
+                        R93 C2P7</p> 
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="homeopathyformen.html">Homeopathy for Men</a></li>
+                    <li><a href="homeopathyforwomen.html">Homeopathy for Women</a></li>
+                    <li><a href="homeopathyforchildren.html">Homeopathy for Children</a></li>
+                    <li><a href="acutesclinic.html">Acutes Clinic</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="shopnow.html">Shop Now</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Treatments</h3>
+                        <ul>
+                            <li><a href="homeopathyformen.html">Men's Health</a></li>
+                            <li><a href="homeopathyforwomen.html">Women's Health</a></li>
+                            <li><a href="homeopathyforchildren.html">Children's Health</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Legal</h3>
+                        <ul>
+                            <li><a>Privacy Policy</a></li>
+                            <li><a>Terms & Conditions</a></li>
+                            <li><a>Return and Refund Policy</a></li>
+                        </ul>
+                    </div>
+                </div><div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li> <i class="fas fa-phone"></i> <a>Phone:  <br>086 2600893</a></li>
+                        <li> <i class="fas fa-message"></i> <a>Text:  <br>083 0685880 (For Acutes Clinic)</a></li>
+                        <li> <i class="fas fa-envelope"></i> <a>Email:  <br>grainne@homeopathyforhealth.ie</a></li>
+                        
+                    </ul>
+                </div>
+            
+                
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-social">
+                    <a class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-social">
+                    <a href="https://github.com/chetan-kashyap-stack">Designed by chetan/a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

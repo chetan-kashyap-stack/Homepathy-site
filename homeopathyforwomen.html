@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homeopathyforhealth | Homeopath | Dublin |Carlow</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+</head>
+<body>
+    <!-- Cursor -->
+    <!-- <div class="cursor"></div> -->
+    <div class="cursor-follower"></div>
+
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-logo">H</div>
+            <div class="loader-progress">
+                <div class="loader-progress-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img id="logoimg" src="assets\images/logo.png" alt="">
+                </a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="homeopathyformen.html" class="nav-link">Homeopathy for Men</a></li>
+                    <li><a href="homeopathyforwomen.html" class="nav-link">Homeopathy for Women</a></li>
+                    <li><a href="homeopathyforchildren.html" class="nav-link">Homeopathy for Children</a></li>
+                    <li><a href="acutesclinic.html" class="nav-link">Acutes Clinic</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="shopnow.html" class="nav-link">Shop Now</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="menu-toggle">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-container">
+            <ul class="mobile-nav-links">
+                <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+                    <li><a href="about.html" class="mobile-nav-link">About</a></li>
+                    <li><a href="homeopathyformen.html" class="mobile-nav-link">Homeopathy for Men</a></li>
+                    <li><a href="homeopathyforwomen.html" class="mobile-nav-link">Homeopathy for Women</a></li>
+                    <li><a href="homeopathyforchildren.html" class="mobile-nav-link">Homeopathy for Children</a></li>
+                    <li><a href="acutesclinic.html" class="mobile-nav-link">Acutes Clinic</a></li>
+                    <li><a href="blog.html" class="mobile-nav-link">Blog</a></li>
+                    <li><a href="shopnow.html" class="mobile-nav-link">Shop Now</a></li>
+                    <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+            </ul>
+            <div class="mobile-contact">
+                <p><i class="fas fa-phone"></i> 086 2600893</p>
+                <p><i class="fas fa-envelope"></i> hello@naturae.com</p>
+            </div>
+            <div class="mobile-social">
+                <a class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a class="social-icon"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <!-- <div class="hero-image"></div> -->
+            <div class="hero-image" style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-image: url('assets/images/women.jpg');
+                background-size: cover;
+                background-position: center;
+                transform: scale(1.1);
+                filter: blur(7px);
+                ">
+            </div>
+
+            <div class="hero-overlay" style="background: linear-gradient(135deg, #1d021857);"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="split-text">Homeopathy for       Women</h1>
+
+                <p class="hero-description">To book an appointment for female-focused homeopathic services,get in touch with the team toady</p>
+                <div class="hero-buttons">
+
+                    <a href="" class="btn-primary"><i class="fas fa-phone"> </i> <span>086 2600893</span></a>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">20+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">5k+</span>
+                    <span class="stat-label">Happy Clients</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Natural Remedies</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+                <div class="about-content">
+                    <div class="section-subtitle">About</div>
+                    <h2 class="section-title">Homeopathy for Women</h2>
+                    <p class="section-description">
+                        From juggling careers to raising families and maintaining busy social lives, the daily life of women in today’s society can be intensely stressful and busy. Here at Homeopathy for Health, we understand the unique stressors put on women which can have harmful effects on the body and mind. Our team has 20 years of experience in the practice of homeopathy for women, putting women’s health at the heart of everything we do.
+                        <br>
+                        <br>
+                        During a consultation with our team, we work closely with our clients to understand your unique symptoms, working out an individual treatment plan to help restore balance to your mind and body. Our homeopathy clinics and remedies work to stimulate your body’s own defences to heal itself, providing gentle yet powerful and long-lasting results.
+                        
+                    </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Our Carlow & Dublin homeopathy clinics provide female-focused treatments to help clients suffering with a range of ailments</h2>
+                <a href="#book" class="btn-primary"><i class="fas fa-phone"></i> 086 2600893</a>
+                <p></p>
+            </div>
+        </div>
+    </section>
+
+    <section style="background: var(--background); padding: 4rem var(--container-padding); font-family: var(--font-body);">
+        <div style="max-width: var(--container-width); margin: auto;">
+        <h2 style="color: var(--primary); font-family: var(--font-heading); font-size: 2.5rem; margin-bottom: 1rem;">
+            Women’s Health
+        </h2>
+        <p style="color: var(--text-medium); font-size: 1.1rem; line-height: 1.7; margin-bottom: 2rem;">
+            The female body is astounding , going through many fascinating experiences including puberty, pregnancy, childbirth, menopause, and more. Homeopathy is a safe and gentle medicine that can be used at all stages of a woman’s life. Women can experience a range of mental, emotional, and physical complaints including:
+        </p>
+    
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem;">
+            <!-- Item Template -->
+            <div style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-dark);">
+            <i class="fas fa-leaf" style="color: var(--primary);"></i>  Menstrual Problems
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-dark);">
+            <i class="fas fa-leaf" style="color: var(--primary);"></i> Irritable Bowel Syndrome
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-dark);">
+            <i class="fas fa-leaf" style="color: var(--primary);"></i> Migraine
+
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-dark);">
+            <i class="fas fa-leaf" style="color: var(--primary);"></i> Anxiety/Panic attacks
+            </div>
+    
+            <div style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-dark);">
+            <i class="fas fa-leaf" style="color: var(--primary);"></i> Cysts
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-dark);">
+            <i class="fas fa-leaf" style="color: var(--primary);"></i> Acne or Acne Rosacea
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-dark);">
+            <i class="fas fa-leaf" style="color: var(--primary);"></i> Vertigo
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-dark);">
+            <i class="fas fa-leaf" style="color: var(--primary);"></i> Psoriasis
+            </div>
+    
+            <div style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-dark);">
+            <i class="fas fa-leaf" style="color: var(--primary);"></i> Menopausal Problems
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-dark);">
+            <i class="fas fa-leaf" style="color: var(--primary);"></i> Sleep disorders
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-dark);">
+            <i class="fas fa-leaf" style="color: var(--primary);"></i> Depression
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-dark);">
+            <i class="fas fa-leaf" style="color: var(--primary);"></i> Infertility
+            </div>
+    
+            <div style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-dark);">
+            <i class="fas fa-leaf" style="color: var(--primary);"></i> Hormonal Imbalances
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-dark);">
+            <i class="fas fa-leaf" style="color: var(--primary);"></i> Chronic fatigue
+            </div>
+            
+        </div>
+        </div>
+    </section>
+    
+
+    <section id="about" class="about">
+        <div class="container">
+            <div style="background-color:#fce9f8; padding: 2rem; font-family: 'Sora', sans-serif;">
+
+                <!-- Section 1 -->
+                <div style="display: flex; gap: 2rem; align-items: flex-start; padding: 2rem; margin-bottom: 2rem; border: 1px solid #dee2e6; border-radius: 8px; background-color: #ffffff;">
+                <!-- Text -->
+                <div style="flex: 1;">
+                    <h2 style="color: #6C145E; font-family: 'Playfair Display', serif; font-size: 1.75rem; margin-bottom: 1rem;">Homeopathy for Menstruation</h2>
+                    <p style="color: #555555; line-height: 1.6; margin-bottom: 1rem;">
+                    From puberty onwards, women can often suffer from irregular, profuse, painful or absent menstruation. As well as being physically painful and uncomfortable, this can be an emotionally draining experience.
+                    </p>
+                    <p style="color: #555555; line-height: 1.6;">
+                    Homeopathy can help to restore balance in the menstrual cycle in a gentle and effective way. Bloating, breast tenderness, cravings, and more can be caused as a result of hormonal imbalance. Homeopathy can help alleviate these symptoms by stimulating the body to balance the hormonal levels in the body with individualised and unique treatments.
+                    </p>
+                </div>
+            
+                <!-- Image -->
+                <div style="flex: 1;">
+                    <img src="assets\images/w1.jpg" alt="Homeopathy for Menstruation" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                </div>
+                </div>
+            
+                <!-- Section 2 -->
+                <div style="display: flex; flex-direction: row-reverse; gap: 2rem; align-items: flex-start; padding: 2rem; margin-bottom: 2rem; border: 1px solid #dee2e6; border-radius: 8px; background-color: #ffffff;">
+                <!-- Text -->
+                <div style="flex: 1;">
+                    <h2 style="color: #6C145E; font-family: 'Playfair Display', serif; font-size: 1.75rem; margin-bottom: 1rem;">Homeopathy for Pregnancy & Childbirth</h2>
+                    <p style="color: #555555; line-height: 1.6; margin-bottom: 1rem;">
+                    Homeopathy is a gentle and natural remedy system of healing, suitable for everyone including pregnant women and even new born infants. Homeopathy can be helpful for women suffering many physical and emotional problems relating to conception, pregnancy, childbirth, and postpartum conditions.
+                    </p>
+                    <p style="color: #555555; line-height: 1.6; margin-bottom: 1rem;">
+                    Homeopathic remedies can also help women to restore balance from the effects of miscarriage including excessive bleeding, insomnia, exhaustion, and anxiety. These remedies are safe to use during pregnancy without fear of toxicity or side effects.
+                    </p>
+                    <p style="color: #555555; line-height: 1.6;">
+                    Homeopathy is also suitable for helping to alleviate ovarian problems including inflammation, infection, cysts or tumours. These are caused by imbalances in hormones that homeopathy works to rebalance.
+                    </p>
+                </div>
+            
+                <!-- Image -->
+                <div style="flex: 1;">
+                    <img src="assets\images/w2.jpg" alt="Homeopathy for Pregnancy" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                </div>
+                </div>
+            
+                <!-- Section 3 -->
+                <div style="display: flex; gap: 2rem; align-items: flex-start; padding: 2rem; margin-bottom: 2rem; border: 1px solid #dee2e6; border-radius: 8px; background-color: #ffffff;">
+                    <!-- Text -->
+                    <div style="flex: 1;">
+                        <h2 style="color: #6C145E; font-family: 'Playfair Display', serif; font-size: 1.75rem; margin-bottom: 1rem;">Homeopathy for Menstruation</h2>
+                        <p style="color: #555555; line-height: 1.6; margin-bottom: 1rem;">
+                        From puberty onwards, women can often suffer from irregular, profuse, painful or absent menstruation. As well as being physically painful and uncomfortable, this can be an emotionally draining experience.
+                        </p>
+                        <p style="color: #555555; line-height: 1.6;">
+                        Homeopathy can help to restore balance in the menstrual cycle in a gentle and effective way. Bloating, breast tenderness, cravings, and more can be caused as a result of hormonal imbalance. Homeopathy can help alleviate these symptoms by stimulating the body to balance the hormonal levels in the body with individualised and unique treatments.
+                        </p>
+                    </div>
+                
+                    <!-- Image -->
+                    <div style="flex: 1;">
+                        <img src="assets\images/w3.jpg" alt="Homeopathy for Menstruation" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                    </div>
+                    </div>
+            
+            </div>              
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>For more information on our homeopathic remedies for women, get in touch</h2>
+                <a href="#book" class="btn-primary"><i class="fas fa-phone"></i> 086 2600893</a>
+                <p></p>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+                <div class="about-content">
+                    <div class="section-subtitle">About </div>
+                    <h2 class="section-title">Homeopathy for Women FAQ</h2>
+                    <div class="ques">
+                        <div class="section-subtitle">Can homeopathic remedies be taken during pregnancy? </div>
+                        <p class="section-description">
+                            Yes, absolutely. Homeopathic remedies are extremely gently and come in small, dilute doses which makes them completely safe to use during pregnancy.                      
+                        </p></div>
+                    <div class="ques">
+                        <div class="section-subtitle">How long does it take for homeopathic medicines to be effective? </div>
+                        <p class="section-description">
+                            This all depends on the patient taking the medicine. Many homeopathic medicines work almost immediately on your body, while others may take a little longer.      
+                        </p></div>
+                    <div class="ques">
+                        <div class="section-subtitle">Where can I find homeopathy for women services? </div>
+                        <p class="section-description">
+                            Homeopathy for Health provides clinics online, in Carlow and in Dublin that specialise in homeopathy for women. We work with women suffering from a range of conditions including gastrointestinal issues, menstrual problems, fertility issues, mental conditions, and more.   
+                        </p></div>
+                    
+                    
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <span class="logo-text"><img src="assets\images/logo.png" alt=""></span>
+                    <p><i class="fas fa-location-dot"></i> 13 Fade St., Dublin 2,
+                        Co. Dublin,
+                        Ireland</p> 
+                    <br>
+                    <br>
+                    <p><i class="fas fa-location-dot"></i> The Old School House,
+                        Bennekerry, 
+                        Co. Carlow,
+                        R93 C2P7</p> 
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="homeopathyformen.html">Homeopathy for Men</a></li>
+                    <li><a href="homeopathyforwomen.html">Homeopathy for Women</a></li>
+                    <li><a href="homeopathyforchildren.html">Homeopathy for Children</a></li>
+                    <li><a href="acutesclinic.html">Acutes Clinic</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="shopnow.html">Shop Now</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Treatments</h3>
+                        <ul>
+                            <li><a href="homeopathyformen.html">Men's Health</a></li>
+                            <li><a href="homeopathyforwomen.html">Women's Health</a></li>
+                            <li><a href="homeopathyforchildren.html">Children's Health</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Legal</h3>
+                        <ul>
+                            <li><a>Privacy Policy</a></li>
+                            <li><a>Terms & Conditions</a></li>
+                            <li><a>Return and Refund Policy</a></li>
+                        </ul>
+                    </div>
+                </div><div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li> <i class="fas fa-phone"></i> <a>Phone:  <br>086 2600893</a></li>
+                        <li> <i class="fas fa-message"></i> <a>Text:  <br>083 0685880 (For Acutes Clinic)</a></li>
+                        <li> <i class="fas fa-envelope"></i> <a>Email:  <br>grainne@homeopathyforhealth.ie</a></li>
+                        
+                    </ul>
+                </div>
+            
+                
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-social">
+                    <a class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-social">
+                    <a href="https://github.com/chetan-kashyap-stack">Designed by Chetan</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

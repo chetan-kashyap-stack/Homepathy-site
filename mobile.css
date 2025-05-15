@@ -1,0 +1,42 @@
+/* Mobile Navigation Styles */
+@media (max-width: 767px) {
+  .mobile-menu-btn {
+    display: block;
+    background: none;
+    border: none;
+    color: #6a1b9a;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .mobile-nav {
+    display: none;
+    width: 100%;
+  }
+
+  .mobile-nav.active {
+    display: block;
+  }
+
+  .mobile-nav ul {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .mobile-nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .mobile-nav ul li a {
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile-menu-btn {
+    display: none;
+  }
+}
